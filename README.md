@@ -13,8 +13,8 @@
 mongoDB常用命令
 跟mysql不太一样，
 
-use dbname
-show dbs;
-show tables;
-db.collection.find/remove  
+use dbname  
+show dbs;  
+show tables;  
+db.collection.find/remove    
 db.users.update({name:'imooc',role:50},{'$inc':{role:0}})
